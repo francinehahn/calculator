@@ -11,4 +11,4 @@ Calculator based on the iOS calculator. Design is responsive to all screen sizes
 ![image of the calculator](https://github.com/francinehahn/calculator/blob/main/img-calculator.png)
 
 ### Link surge
-[link surge](http://dapper-road.surge.sh/)
+[Click here -> Link surge](http://dapper-road.surge.sh/)
