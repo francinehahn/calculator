@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
-import { MainContainer, CalculatorSection, DisplaySection } from '../style'
-import '../index.css'
+import { MainContainer, CalculatorSection, DisplaySection } from './style'
 
 
 export function Calculator() {
