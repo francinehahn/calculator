@@ -8,7 +8,7 @@ Calculator based on the iOS calculator. Design is responsive to all screen sizes
 * React JS
 
 ## Link to access the project
-http://dapper-road.surge.sh/
+https://helpless-sleep.surge.sh/
 
 ## Installing
 <pre>
