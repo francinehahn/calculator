@@ -23,7 +23,7 @@ export function Calculator() {
             setOperator('')
             return setDisplay(e.target.value)
         } else {
-            return setDisplay(display + e.target.value)
+            return setDisplay((display + e.target.value))
         }
     }
 
@@ -76,6 +76,12 @@ export function Calculator() {
             math = parseFloat(oldNumber) - parseFloat(display)
         }
         setNewOperator('')
+
+        const isDecimal = math.toString().split(".")
+        if (isDecimal.length > 1) {
+            isDecimal[1].length > 6? math = math.toFixed(6) : math = math
+        }
+        
         return setDisplay(math)
     }
 
